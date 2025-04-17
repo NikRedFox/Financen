@@ -8,3 +8,47 @@ iframe{
     height: 609px;
 }
 
+/* --------------footer----------------- */
+footer{
+    background-color: #FAFAFA;
+}
+.footer-information{
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    padding: 80px 195px;
+    gap: 108px;
+}
+.footer-information h2, .footer-information p{
+    width: 213px;
+    margin-bottom: 25px;
+}
+
+.footer-social{
+    display: flex;
+    gap: 20px;
+}
+
+.footer-navigation{
+    display: flex;
+    gap: 94px;
+}
+
+.footer-navigation h2{
+    margin-top: 20px;
+}
+.nav-links{
+    list-style: none;
+    padding: 0;
+}
+.footer-item{
+    display: block;
+    text-decoration: none;
+    color: #737373;
+    margin-bottom: 10px;
+}
+.copyright{
+    text-align: center;
+    padding: 25px 0;
+}
+/* --------------fim footer------------- */
