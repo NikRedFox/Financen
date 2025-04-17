@@ -1,0 +1,71 @@
+@import url(./global.css);
+
+body{
+    font-family: var(--font);
+}
+
+header{
+    display: flex;
+    width: 100%;
+    padding: 16px 143px 16px 136px;
+    align-items: center;
+    background-color: var(--color-filter);
+    gap: 76px; 
+}
+
+.header-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 227px;
+}
+
+.header-logo p{
+    font-size: var(--headline3);
+    font-weight: var(--headline3-weight);
+    color: var(--color-neutral-white);    
+}
+
+.header-items{
+    display: flex;
+    list-style: none;
+    gap: 21px;
+    font-size: var(--headline6);
+    font-weight: var(--headline6-weight);
+}
+
+.header-items a{
+    text-decoration: none;
+    color: var(--color-neutral-white);
+}
+
+.button-container{
+    display: flex;
+    gap: 45px;
+    align-items: center;
+}
+
+.button-container a{
+    text-decoration: none;
+    font-size: var(--btn-text);
+    font-weight: var(--btn-weight);
+    color: var(--color-neutral-white);
+}
+
+.button-container button{
+    display: flex;
+    font-size: var(--btn-text);
+    font-weight: var(--btn-weight);
+    color: var(--color-neutral-white);
+    background-color: var(--color-primary-blue);
+    width: 220px;
+    height: 52px;
+    border-radius: 5px;
+    padding: 15px 25px;  
+    gap: 15px;
+    justify-content: center;
+    align-items: center;  
+    cursor: pointer;
+}
+
+
