@@ -1,5 +1,8 @@
 @import url('./global.css');
 
+body {
+    font-family: var(--font);
+}
 .aboutus-title {
     width: 607px;
     background-color: aquamarine;
@@ -26,13 +29,13 @@
     display: flex;
     justify-content: center;
     margin-top: 96px;
-    border: 1px solid blue;
+    border: 1px solid var(--color-primary-blue);
     width: 1053px;
     gap: 120px;
     padding: 43px 0;
 }
 .aboutus-content img {
-    width: 592px; 
+   width: 592px; 
    height: 442px;
 }
 .aboutus-content-text {
@@ -41,17 +44,44 @@
 }
 .aboutus-content-text h3{
     margin-top: 20px;
+    color: var(--color-text);
+    border: 1px solid yellow;
+    font-size: 24px;
 }
+
 .aboutus-content-text p{
     margin-top: 20px;
     font-size: 14px;
-    color: #737373;
+    color: var(--color-second-text);
+}
+.aboutus-content-text-icons {
+    margin-top: 30px;
 }
 .aboutus-content-text-icons img {
     width: 32px;
     height: 32px;
 }
+.aboutus-content-text-icons {
+    border: 1px solid green;
+    display: flex;
+    gap: 20px;
+}
+.aboutus-content-text-icons .icon {
+    align-items: start;
+}
+.aboutus-content-text-icons h3 {
+    color: var(--color-text);
+    font-weight: bold;
+    border: 1px solid blueviolet;
+}
+.aboutus-content-text-icons p {
+    margin-top: 2px;
+    color: var(--color-second-text-color);
+    border: 1px solid indianred;
+}
 
 
-//252B42
+
+
+
 
