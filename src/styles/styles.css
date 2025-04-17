@@ -1,0 +1,35 @@
+/*----------------------------------- BETTER STRATEGY ---------------------------------------*/
+.better-strategy{
+    text-align: center;
+    justify-content: center;
+    background-color: #FFFFFF;
+}
+
+.better-strategy h2{ 
+    color:#252B42;
+}
+
+/*.better-strategy p{ 
+    
+}*/
+
+
+.better-container{
+    display: flex;
+    justify-content: center;
+    padding: 60px 100px;
+    gap: 110px;
+}
+
+/*.better-container p{ 
+    width: 275.3px;
+    color: rgba(0, 0, 0, 0.6);
+}*/
+
+/*-------------------------------- FIM BETTER STRATEGY ---------------------------------------*/
+
+/*----------------------------------- BETTER STRATEGY ---------------------------------------*/
+.what-clients{
+    text-align: center;
+}
+/*-------------------------------- FIM BETTER STRATEGY ---------------------------------------*/
