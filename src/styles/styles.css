@@ -133,6 +133,16 @@ main{
 
 /* Main */
 
+/* Responsividade Tablet */
+
+@media (max-width: 850px){
+    main{
+       padding: 40px 80px 0px 80px; 
+    }
+}
+    
+/* Responsividade Tablet */
+    
 
 /* Responsividade Mobile*/
 @media (max-width: 480px){
