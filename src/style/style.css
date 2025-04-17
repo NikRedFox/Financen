@@ -1,0 +1,57 @@
+@import url('./global.css');
+
+.aboutus-title {
+    width: 607px;
+    background-color: aquamarine;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 112px;
+    margin-right: 221.5px;
+    margin-left: 221.5px;
+}
+.aboutus-title h2 { 
+    font-size: 40px;
+    font-weight: bold;
+    color: var(--color-text);
+}
+.aboutus-title p { 
+    font-size: 14px;
+    color: var(--color-second-text-color);
+    margin-top: 10px;
+    width: 470px;
+    text-align: center;
+}
+.aboutus-content {
+    display: flex;
+    justify-content: center;
+    margin-top: 96px;
+    border: 1px solid blue;
+    width: 1053px;
+    gap: 120px;
+    padding: 43px 0;
+}
+.aboutus-content img {
+    width: 592px; 
+   height: 442px;
+}
+.aboutus-content-text {
+    width: 333px;
+    border: 1px solid red;
+}
+.aboutus-content-text h3{
+    margin-top: 20px;
+}
+.aboutus-content-text p{
+    margin-top: 20px;
+    font-size: 14px;
+    color: #737373;
+}
+.aboutus-content-text-icons img {
+    width: 32px;
+    height: 32px;
+}
+
+
+//252B42
+
