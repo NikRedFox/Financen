@@ -1,8 +1,5 @@
 @import url(./global.css);
 
-body{
-    font-family: var(--font);
-}
 /* Header */
 header{
     display: flex;
@@ -17,8 +14,7 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 100%;
-    
+    width: 100%;    
 }
 
 .header-logo p{
@@ -68,6 +64,17 @@ header{
     align-items: center;  
     cursor: pointer;
 }
+.menu-toggle{
+    display: none;
+    flex-direction: column;
+    gap: 5px;
+}
+.menu-bar{
+    width: 30px;
+    height: 5px;
+    background-color:  var(--color-neutral-white);
+    border-radius: 10px;
+}
 
 /* Header */
 
@@ -98,6 +105,11 @@ main{
     width: 376px;
 }
 
+.main-btn-box{
+    display: flex;
+    gap: 10px;
+}
+
 .main-btn-blue{
     width: 187px;
     height: 52px;
@@ -120,3 +132,56 @@ main{
 }
 
 /* Main */
+
+
+/* Responsividade Mobile*/
+@media (max-width: 480px){
+    header{
+        justify-content: center;
+        gap: 140px;
+        padding: 16px 0px;
+       
+    }
+
+    .header-container, .header-links, .header-items{
+        display: none;
+    }
+
+    .menu-toggle{
+        display: flex;
+        flex-direction: column;  
+        cursor: pointer;      
+    }
+
+    main{
+        flex-direction: column-reverse;
+        padding: 30px 20px;
+        gap: 0;
+    }
+
+    main img{
+        width: 350px;
+        text-align: center;
+    }
+
+    .main-text-container{
+        margin: 0;
+        align-items: center;        
+    }
+
+    .main-text-container h1{
+        display: flex;
+        text-align: center;
+    }
+
+    .main-text-container p{
+        width: 90%;
+    }
+
+    .main-btn-box{
+        display: flex;
+        width: 90%;
+        gap: 10px;
+    }
+}
+/* Responsividade Mobile*/
