@@ -1,5 +1,7 @@
+@import url("./global.css");
+
 .mapa{
-    background-color: #FAFAFA;
+    background-color: var(--color-background);
     padding: 124px 0;
 }
 
@@ -10,17 +12,32 @@ iframe{
 
 /* --------------footer----------------- */
 footer{
-    background-color: #FAFAFA;
+    background-color: var(--color-background);
 }
 .footer-information{
-    background-color: #FFFFFF;
+    background-color: var(--color-neutral-white);
     display: flex;
     justify-content: center;
     padding: 80px 195px;
     gap: 108px;
 }
+.footer-information h2{
+    font-size: var(--headline3);
+    color: var(--color-text);
+    font-family: var( --font);
+    font-weight: var(--headline3-weight);
+    line-height: var(--line-height-h3);
+}
+
+.footer-information p{
+    font-size: var(--paragraph);
+    color: var(--color-second-text);
+    font-family: var(--font);
+    font-weight: var(--paragraph-weight);
+    line-height: var(--line-height-p);
+}
 .footer-information h2, .footer-information p{
-    width: 213px;
+    width: 170px;
     margin-bottom: 25px;
 }
 
@@ -34,8 +51,8 @@ footer{
     gap: 94px;
 }
 
-.footer-navigation h2{
-    margin-top: 20px;
+.footer-navigation h3{
+    margin-bottom: 20px;
 }
 .nav-links{
     list-style: none;
@@ -44,7 +61,7 @@ footer{
 .footer-item{
     display: block;
     text-decoration: none;
-    color: #737373;
+    color: var(--color-second-text);
     margin-bottom: 10px;
 }
 .copyright{
