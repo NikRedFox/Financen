@@ -92,7 +92,7 @@ footer{
         gap: 30px;
     }
     .footer-navigation{
-        gap: 20px;
+        gap: 10px;
     }
 
     .copyright{
@@ -101,7 +101,23 @@ footer{
 }
 /* ------fim tablet----- */
 
-git
+/* ------celular----- */
+@media(max-width: 480px){
+    .footer-information{
+        padding: 60px 30px;
+        flex-direction: column;
+        align-items: start;
+    }
+    .footer-navigation{
+        flex-direction: column;
+        align-items: start;
+    }
+
+    .copyright{
+        font-size: 12px;
+    }
+}
+/* ------fim celular----- */
 
 
 /* --------fim responsividade------- */
