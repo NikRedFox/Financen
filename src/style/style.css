@@ -37,6 +37,7 @@ body {
 }
 .aboutus-content-text {
     width: 333px;
+    margin-top: 20px;
 }
 .aboutus-content-text h3{
     margin-top: 20px;
@@ -171,7 +172,7 @@ body {
 }
 
 /* Versão Mobile */
-@media (max-width: 835px) {
+@media (max-width: 480px) {
 
     .aboutus-title {
         display: flex;
@@ -191,29 +192,38 @@ body {
         display: flex;
         flex-direction: column;
         margin-top: 26px;
+        gap: 25px;
     }
     .aboutus-content img {
-        width: 392px; 
-        height: 242px;
-     }
+        width: 95%;
+        height: 95%;
+        margin: 0 10px;
+      }
      .aboutus-content-text {
         width: 100%;
         display: flex;
         flex-direction: column;
-        text-align: center;
-        border: 1px solid red;
+        text-align: center;   
     }
+    .aboutus-content-text p {
+        margin-bottom: 20px;
+    }
+       .aboutus-content-text-icons {
+        gap: 7px; 
+        margin-left: 20px;
+        margin-top: 10px;
+    } 
     .aboutus-content-text-icons img {
         width: 32px;
         height: 32px;
         margin-left: 10px;
     }
-    .aboutus-content-text-icons {
-        gap: 7px; 
-    }
     .pricing {
         display: flex;
         align-items: start;
+     }
+    .pricing-top {
+        margin-top: 20px;
     }
     .pricing-top p {
         width: 95%;
@@ -223,10 +233,13 @@ body {
         flex-direction: column;
         align-items: center;   
         width: 90%;
+        margin-top: 40px;
         margin-left: 10px;
     }
+}
 
-
+/* Versão Mobile */
+@media (max-width: 850px) {
 
 }
 
