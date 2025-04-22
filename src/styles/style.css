@@ -9,3 +9,12 @@ iframe{
     height: 609px;
 }
 
+/* -------responsividade----- */
+/* ------celular------- */
+@media (max-width: 480px){
+    .mapa{
+        padding: 90px 0;
+    }
+}
+/* ------fim celular------- */
+/* -------fim responsividade----- */
