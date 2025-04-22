@@ -84,3 +84,24 @@ footer{
     padding: 25px 0;
 }
 /* --------------fim footer------------- */
+
+/* --------responsividade------- */
+/* ------tablet----- */
+@media (max-width: 834px){
+    .footer-information{
+        gap: 30px;
+    }
+    .footer-navigation{
+        gap: 20px;
+    }
+
+    .copyright{
+        text-align: center;
+    }
+}
+/* ------fim tablet----- */
+
+git
+
+
+/* --------fim responsividade------- */
