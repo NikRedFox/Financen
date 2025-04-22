@@ -125,6 +125,7 @@ body {
     margin-top: 35px;
     margin-bottom: 50px;
     border-radius: 5px;
+    cursor: pointer;
 }
 .pricing-bottom-box p {
     color: var(--color-second-text);
@@ -165,9 +166,68 @@ body {
 .pricing-bottom-box-icons-icon {
     display: flex;
     justify-content: start;
-
     padding: 0 10px;
     gap: 15px;  
+}
+
+/* Versão Mobile */
+@media (max-width: 835px) {
+
+    .aboutus-title {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .aboutus-title h2 {
+        width: 470px;
+        font-size: 38px;
+
+    }
+    .aboutus-title p { 
+        width: 350px;
+        text-align: center;
+    }
+    .aboutus-content {
+        display: flex;
+        flex-direction: column;
+        margin-top: 26px;
+    }
+    .aboutus-content img {
+        width: 392px; 
+        height: 242px;
+     }
+     .aboutus-content-text {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        border: 1px solid red;
+    }
+    .aboutus-content-text-icons img {
+        width: 32px;
+        height: 32px;
+        margin-left: 10px;
+    }
+    .aboutus-content-text-icons {
+        gap: 7px; 
+    }
+    .pricing {
+        display: flex;
+        align-items: start;
+    }
+    .pricing-top p {
+        width: 95%;
+    } 
+    .pricing-bottom {
+        display: flex;
+        flex-direction: column;
+        align-items: center;   
+        width: 90%;
+        margin-left: 10px;
+    }
+
+
+
 }
 
 
