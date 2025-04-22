@@ -1,5 +1,6 @@
+@import url("./global.css");
 .mapa{
-    background-color: #FAFAFA;
+    background-color: var(--color-background);
     padding: 124px 0;
 }
 
