@@ -135,9 +135,13 @@ main{
 
 /* Responsividade Tablet */
 
-@media (max-width: 850px){
+@media (max-width: 834px){
+    header{
+        justify-content: center;
+        gap: 150px;
+    }
     main{
-       padding: 40px 80px 0px 80px; 
+       padding: 40px 40px 0px 40px; 
     }
 }
     
@@ -149,8 +153,7 @@ main{
     header{
         justify-content: center;
         gap: 140px;
-        padding: 16px 0px;
-       
+        padding: 16px 0px;       
     }
 
     .header-container, .header-links, .header-items{
