@@ -118,6 +118,7 @@ main{
     font-weight: var(--btn-weight);
     border-radius: 37px;
     color: var(--color-neutral-white);
+    cursor: pointer;
 }
 
 .main-btn-no-bg{
@@ -129,20 +130,523 @@ main{
     font-weight: var(--btn-weight);
     border-radius: 37px;
     color: var(--color-neutral-white);
+    cursor: pointer;
 }
 
 /* Main */
 
+/* Better Strategy */
+.better-strategy{
+    display: flex;
+    flex-direction: column;
+    text-align:center;
+    justify-content:center;
+    align-items: center;
+    background-color: var(--color-background);
+    padding: 112px 195.5px 55px 195.5px;
+}
+
+.better-strategy h2{ 
+    font-size: var(--headline2) ;
+    line-height: var(--line-height-h2);
+    font-weight: var(--headline2-weight);
+    color: var(--color-text);
+    font-family: var(--font);
+    padding-top: 100px;
+    width: 451px;
+}
+
+.better-strategy p{ 
+    color: var(--color-second-text);
+    font-size: 14px;
+    width: 470px;
+}
+
+
+.better-container{
+    display: flex;
+    justify-content: center;
+    padding: 60px 100px;
+    gap: 30px;
+}
+
+.b-containercard{
+    background-color: var(--color-neutral-white);
+    width: 240px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.better-container h3{
+    font-size: 40px;
+
+}
+
+.better-container p{ 
+    width: 275.3px;
+    color: rgba(0, 0, 0, 0.6);
+    font-size: 16px;
+}
+
+/*-------------------------------- FIM BETTER STRATEGY ---------------------------------------*/
+
+/*----------------------------------- WHAT CLIENTS ---------------------------------------*/
+.what-clients{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 0px 195px;
+    gap: 80px;
+    background-color: var(--color-background);
+}
+
+.w-clients{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 10px;
+}
+
+.w-clients h2{
+    font-size: var(--headline2) ;
+    line-height: var(--line-height-h2);
+    font-weight: var(--headline2-weight);
+}
+
+.wclients-textbox{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: start;
+    gap: 15px;
+    padding: 40px 30px;
+    background-color: var(--color-neutral-white);
+}
+
+.wclients-textbox img{
+    width: 130px;
+}
+
+.wclients-textbox h3{
+    font-size: var(--headline3) ;
+    line-height: var(--line-height-h3);
+    font-weight: var(--headline3-weight);
+    color: var(--color-text);
+}
+
+
+.wclients-textbox h4{
+    font-size: var(--headline6) ;
+    line-height: var(--line-height-h6);
+    font-weight: var(--headline6-weight);
+    color: var(--color-second-text);
+}
+
+.wclients-textbox p{
+    display: flex;
+    width: 272px;
+    font-size: var(--paragraph);
+    line-height: var(--line-height-p);
+    font-weight: var(--paragraph-weight) ;
+    color: var(--color-second-text);
+}
+
+.what-clients h2{
+    text-align: center;
+    justify-content: center;
+    font-size: 40px;
+    width: 361px;
+    color: var(--color-text);
+}
+
+.what-clients p{
+    justify-content: center;
+    font-size: var(--paragraph);
+    line-height: var(--line-height-p);
+    font-weight: var(--paragraph-weight) ;
+    color: var(--color-second-text);
+}   
+
+.wclients-container{
+    display: flex;
+    gap: 29px;
+    margin-bottom: 112px;
+}
+
+.wclients-container p{
+    font-size: 14px;
+    width: 272px;
+}
+
+.wclients-container article{
+    display: flex;
+}
+/*-------------------------------- FIM WHAT CLIENTS---------------------------------------*/
+
+/* About us */
+.aboutus-title {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 112px;
+    margin-right: 221.5px;
+    margin-left: 221.5px;
+}
+.aboutus-title h2 { 
+    font-size: 40px;
+    font-weight: bold;
+    color: var(--color-text);
+}
+.aboutus-title p { 
+    font-size: 14px;
+    color: var(--color-second-text-color);
+    margin-top: 10px;
+    width: 470px;
+    text-align: center;
+}
+.aboutus-content {
+    display: flex;
+    justify-content: center;
+    margin-top: 96px;
+    gap: 120px;
+    padding: 43px 0;
+}
+.aboutus-content img {
+   width: 592px; 
+   height: 442px;
+}
+.aboutus-content-text {
+    width: 333px;
+    margin-top: 20px;
+}
+.aboutus-content-text h3{
+    margin-top: 20px;
+    color: var(--color-text);
+    font-size: 24px;
+}
+
+.aboutus-content-text p{
+    margin-top: 20px;
+    font-size: 14px;
+    color: var(--color-second-text);
+}
+.aboutus-content-text-icons {
+    margin-top: 30px;
+}
+.aboutus-content-text-icons img {
+    width: 32px;
+    height: 32px;
+}
+.aboutus-content-text-icons {
+    display: flex;
+    gap: 20px;
+}
+.aboutus-content-text-icons .icon {
+    align-items: start;
+}
+.aboutus-content-text-icons h3 {
+    color: var(--color-text);
+    font-weight: bold;
+}
+.aboutus-content-text-icons p {
+    margin-top: 2px;
+    color: var(--color-second-text-color);
+}
+/* About us */
+
+/* Pricing */
+.pricing {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.pricing-top {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 112px;
+}
+.pricing-top h2 {
+    color: var(--color-text);
+}
+.pricing-top p {
+    width: 470px;
+    text-align: center;
+    margin-top: 10px;
+    color: var(--color-second-text);
+    text-align: var(--headline6);
+}
+.pricing-bottom h3 {
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.pricing-bottom {
+    width: 706px;
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+    gap: 30px;
+}
+.pricing-bottom-box {
+    width: 337px;
+    border: 1px solid var(--color-primary-blue);
+    border-radius: 8px;
+}
+.pricing-bottom-box-btn {
+    text-align: center;
+}
+.pricing-bottom-box-btn button {
+    color: var(--color-neutral-white);
+    text-align: center;
+    font-size: var(--btn-text);
+    padding: 15px 98px;
+    background-color: var(--color-primary-blue);
+    margin-top: 35px;
+    margin-bottom: 50px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.pricing-bottom-box p {
+    color: var(--color-second-text);
+    font-size: var(--headline5);
+    margin-top: 35px;
+    margin-bottom: 25px;
+    text-align: center;
+}
+.pricing-bottom-box-img {
+    text-align: center;
+}
+
+.pricing-bottom-box-icons {
+    margin-top: 35px;
+}
+.pricing-bottom-box-icons .text {
+    color: var(--color-text);
+    font-size: var(--headline6);
+}
+.pricing-bottom-box-icons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;  
+}
+.pricing-bottom-box-icons-icon h4 {
+    color: var(--te--color-text);
+    font-size: var(--headline6);
+    font-weight: 600;
+}
+.pricing-bottom-box-icons-icon img {
+    width: 24px;
+}
+.pricing-bottom-box-icons .icon {
+    align-items: start;
+    margin-bottom: 16.38px;
+  
+}
+.pricing-bottom-box-icons-icon {
+    display: flex;
+    justify-content: start;
+    padding: 0 10px;
+    gap: 15px;  
+}
+/* Pricing */
+
+/* Mapa */
+.mapa{
+    background-color: var(--color-background);
+    padding: 124px 0;
+}
+
+iframe{
+    width: 100%;
+    height: 609px;
+}
+/* Mapa */
+
+/* --------------footer----------------- */
+footer{
+    background-color: var(--color-background);
+}
+.footer-information{
+    background-color: var(--color-neutral-white);
+    display: flex;
+    justify-content: center;
+    padding: 80px 195px;
+    gap: 108px;
+}
+.footer-information h2{
+    font-size: var(--headline3);
+    color: var(--color-text);
+    font-weight: var(--headline3-weight);
+    line-height: var(--line-height-h3);
+}
+
+.footer-information p{
+    font-size: var(--paragraph);
+    color: var(--color-second-text);
+    font-weight: var(--paragraph-weight);
+    line-height: var(--line-height-p);
+}
+.footer-information h2, .footer-information p{
+    width: 213px;
+    margin-bottom: 25px;
+}
+
+.footer-social{
+    display: flex;
+    gap: 20px;
+}
+
+.footer-navigation{
+    display: flex;
+    gap: 94px;
+}
+
+.social-icons{
+    transition: 0.5s;
+}
+.social-icons:hover{
+    transform: translateY(-10px);
+    cursor: pointer;
+}
+
+.footer-navigation h3{
+    width: 177px;
+    margin-bottom: 20px;
+}
+.nav-links{
+    list-style: none;
+    padding: 0;
+}
+.footer-item{
+    display: block;
+    text-decoration: none;
+    color: var(--color-second-text);
+    margin-bottom: 10px;
+    transition: 0.5s;
+}
+
+.footer-item:hover{
+    transform: translateX(10px);
+    color: var(--color-primary-blue);
+    font-weight: 700;
+    cursor: pointer;
+}
+.copyright{
+    text-align: center;
+    padding: 25px 0;
+}
+/* --------------fim footer------------- */
+
+
 /* Responsividade Tablet */
 
 @media (max-width: 834px){
+    /* Header */
     header{
         justify-content: center;
         gap: 150px;
     }
+    /* Header */
+
+    /* Main */
     main{
        padding: 40px 40px 0px 40px; 
     }
+    /* Main */
+
+    /* ------ better strategy  ------- */
+
+    .better-strategy{
+        padding: 0;
+    }
+
+    .better-strategy h2{     
+        margin-top: 0px;
+    }
+
+    .better-container{
+        gap: 14px;
+        padding: 15px 50px;
+    }
+
+    .better-container h3{
+        font-size: 30px;
+    }
+
+    .b-containercard{
+        width: 200px;
+        height: 200px;
+        gap: 10px;
+        margin-top: 30px;
+    }
+    /* ----- fim better strategy ----- */
+
+        
+    /* --------  what clients  ------- */
+    .w-clients h2{
+        margin-top: 50px;
+    }
+
+    .wclients-textbox{
+        padding: 8px 6px;
+    }
+
+    /* ------ fim what clients  ------ */
+
+    /* About Us */
+    .aboutus-content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 6px;
+        gap: 50px;
+    }
+    .aboutus-content-text {
+        display: flex;
+        flex-direction: column;
+        width: 95%;
+    }
+    .aboutus-content img {
+        width: 95%;
+        height: 95%;
+    }
+    .aboutus-content-text h3{
+        color: var(--color-text);
+        font-size: 38px;
+        text-align: center;
+    }
+    /* About Us */
+    
+    /* Pricing */
+    .pricing-top {
+        margin-top: 20px;
+    }
+    /* Pricing */
+
+    /* Footer */
+    .footer-information{
+        gap: 30px;
+    }
+    .footer-navigation{
+        gap: 10px;
+    }
+
+    .copyright{
+        text-align: center;
+    }
+    /* Footer */
 }
     
 /* Responsividade Tablet */
@@ -150,6 +654,7 @@ main{
 
 /* Responsividade Mobile*/
 @media (max-width: 480px){
+    /* Header */
     header{
         justify-content: center;
         gap: 140px;
@@ -165,7 +670,9 @@ main{
         flex-direction: column;  
         cursor: pointer;      
     }
+    /* Fim Header */
 
+    /* Main */
     main{
         flex-direction: column-reverse;
         padding: 30px 20px;
@@ -196,5 +703,141 @@ main{
         width: 90%;
         gap: 10px;
     }
+    /* Fim Main */
+
+/* ------ better strategy  ------- */
+    .better-strategy h2{ 
+        font-size: 40px ;
+        line-height: 57px;
+        font-weight: 500 px;
+        padding-top: 20px;
+        width: 351px;
+    }
+
+    .better-strategy p{ 
+        font-size: 15px;
+        width: 235px;
+    }
+
+    .better-container{
+        flex-direction: column;
+    }
+    /* ----- fim better strategy ----- */
+
+    /* --------  what clients  ------- */
+    .w-clients h2{
+        font-size: 40px;
+        line-height: 57px;
+        font-weight: 700px;
+    }
+
+    .wclients-container{
+        flex-direction: column;    
+    }
+
+    .wclients-container p{    
+        width: 230px;
+    }
+
+    .wclients-textbox{
+        padding: 10px;
+    }
+
+    .wclients-textbox img{
+        
+    }
+    /* ------ fim what clients  ------ */
+
+    /* About us */
+    .aboutus-title {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .aboutus-title h2 {
+        width: 470px;
+        font-size: 38px;
+
+    }
+    .aboutus-title p { 
+        width: 350px;
+        text-align: center;
+    }
+    .aboutus-content {
+        display: flex;
+        flex-direction: column;
+        margin-top: 26px;
+        gap: 25px;
+    }
+    .aboutus-content img {
+        width: 95%;
+        height: 95%;
+        margin: 0 10px;
+      }
+     .aboutus-content-text {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        text-align: center;   
+    }
+    .aboutus-content-text p {
+        margin-bottom: 20px;
+    }
+    .aboutus-content-text-icons {
+        gap: 15px; 
+        margin-left: 20px;
+        margin-top: 10px;
+    } 
+    .aboutus-content-text-icons img {
+        width: 15px;
+        height: 1dvb;
+        margin-left: 10px;
+    }
+    /* About us */
+
+    /* Pricing */
+    .pricing {
+        display: flex;
+        align-items: start;
+     }
+    .pricing-top {
+        margin-top: 20px;
+    }
+    .pricing-top p {
+        width: 95%;
+    } 
+    .pricing-bottom {
+        display: flex;
+        flex-direction: column;
+        align-items: center;   
+        width: 90%;
+        margin-top: 40px;
+        margin-left: 10px;
+    }
+    /* Pricing */
+
+    /* Mapa */
+    .mapa{
+        padding: 90px 0;
+    }
+    /* Mapa */
+
+    /* Footer */
+    .footer-information{
+        padding: 60px 30px;
+        flex-direction: column;
+        align-items: start;
+    }
+    .footer-navigation{
+        flex-direction: column;
+        align-items: start;
+    }
+
+    .copyright{
+        font-size: 12px;
+    }
+
+    /* ------Footer----- */
+        
 }
 /* Responsividade Mobile*/
